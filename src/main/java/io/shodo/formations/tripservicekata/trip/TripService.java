@@ -1,11 +1,11 @@
 package io.shodo.formations.tripservicekata.trip;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import io.shodo.formations.tripservicekata.exception.UserNotLoggedInException;
 import io.shodo.formations.tripservicekata.user.User;
 import io.shodo.formations.tripservicekata.user.UserSession;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TripService {
 
@@ -28,5 +28,5 @@ public class TripService {
 			throw new UserNotLoggedInException();
 		}
 	}
-	
+
 }
