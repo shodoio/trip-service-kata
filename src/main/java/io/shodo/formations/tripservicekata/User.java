@@ -1,4 +1,4 @@
-package io.shodo.formations.tripservicekata.user;
+package io.shodo.formations.tripservicekata;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +24,10 @@ public class User {
 	
 	public List<Trip> trips() {
 		return trips;
+	}
+
+	public boolean isFriendsWith(User anotherUser) {
+		return friends.contains(anotherUser);
 	}
 
 }
