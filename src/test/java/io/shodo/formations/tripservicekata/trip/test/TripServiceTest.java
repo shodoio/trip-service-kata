@@ -1,22 +1,22 @@
 package io.shodo.formations.tripservicekata.trip.test;
 
-import static io.shodo.formations.tripservicekata.user.test.UserBuilder.aUser;
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
-import static org.mockito.BDDMockito.given;
-
-import java.util.List;
-
+import io.shodo.formations.tripservicekata.User;
 import io.shodo.formations.tripservicekata.exception.UserNotLoggedInException;
 import io.shodo.formations.tripservicekata.trip.Trip;
 import io.shodo.formations.tripservicekata.trip.TripDAO;
 import io.shodo.formations.tripservicekata.trip.TripService;
-import io.shodo.formations.tripservicekata.user.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+
+import java.util.List;
+
+import static io.shodo.formations.tripservicekata.user.test.UserBuilder.aUser;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
+import static org.mockito.BDDMockito.given;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TripServiceTest {

@@ -1,11 +1,11 @@
 package io.shodo.formations.tripservicekata.trip;
 
+import io.shodo.formations.tripservicekata.User;
+import io.shodo.formations.tripservicekata.exception.UserNotLoggedInException;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import io.shodo.formations.tripservicekata.exception.UserNotLoggedInException;
-import io.shodo.formations.tripservicekata.user.User;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class TripService {
 
