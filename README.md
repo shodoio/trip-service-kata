@@ -1,4 +1,4 @@
-# TRip service kata
+# Trip service kata
 
 Kata for legacy code hands-on session. The objective is to test and refactor the legacy TripService class.
 
